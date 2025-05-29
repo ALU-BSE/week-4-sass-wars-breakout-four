@@ -1,0 +1,44 @@
+nav {
+  background-color: #2C3D4F;
+  font-family: "Poppins", sans-serif;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  position: relative;
+}
+nav ul li a {
+  display: block;
+  padding: 1rem;
+  color: #ECF0F1;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+nav ul li a:hover {
+  background-color: #3498DA;
+}
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: navy;
+  flex-direction: column;
+}
+nav ul li ul li a {
+  padding: 0.75rem 1rem;
+}
+nav ul li:hover ul {
+  display: flex;
+}
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

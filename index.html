@@ -3,26 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HTML Navbar with Dropdown</title>
+  <title>Responsive Navbar with Dropdown</title>
+  <link rel="stylesheet" href="/styles/main.css" />
 </head>
 <body>
 
-  <nav>
-    <ul>
+  <nav class="navbar">
+    <ul class="nav-menu">
       <li><a href="#">Home</a></li>
 
-      <li>
+      <li class="has-dropdown">
         <a href="#">Services</a>
-        <ul>
+        <ul class="dropdown">
           <li><a href="#">Web Development</a></li>
           <li><a href="#">App Development</a></li>
           <li><a href="#">SEO</a></li>
         </ul>
       </li>
 
-      <li>
+      <li class="has-dropdown">
         <a href="#">About</a>
-        <ul>
+        <ul class="dropdown">
           <li><a href="#">Team</a></li>
           <li><a href="#">Company</a></li>
         </ul>
